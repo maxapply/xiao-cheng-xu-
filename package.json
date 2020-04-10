@@ -38,6 +38,8 @@
     "@dcloudio/uni-stat": "^2.0.0-26820200330001",
     "core-js": "^3.6.4",
     "flyio": "^0.6.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.11",
     "vuex": "^3.0.1"
