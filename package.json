@@ -1,10 +1,13 @@
 {
   "name": "ngo-text",
   "version": "0.1.0",
+  "homepage": "https://maxapply.github.io/ugo-",
   "private": true,
   "scripts": {
     "serve": "npm run dev:h5",
     "build": "npm run build:h5",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
     "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
